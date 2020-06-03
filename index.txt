@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <!-- saved from url=(0052)file:///C:/Users/aisectnew/Downloads/index%20(2).htm -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><style> 
-	h1{font-family:Curlz MT;font-size:50px;text-align: center;margin-top: 300px;color:rgb(234,134,54);font-family: "Harrington";}
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><style>
+	h1{font-family:Curlz MT;font-size:50px;text-align: center;margin-top: 300px;color:rgb(234,134,54);}
 	form{margin-top:50px;margin-left:450px;}
 	body{background-color:black;}
-	input{font-size: 43px;margin-left:190px;font-family:"Giddyup Std";font-weight: bolder;  }
-
+	input{font-size: 26px;margin-top:20px; }
 </style>
 
 	</head><body id="ais"><h1 id="soumya">THEME SWITCHER</h1>
@@ -14,7 +13,7 @@
 
 
 	<form name="f">
-	<input type="button" value="White" name="but" onclick="changecol(but.value)">
+	<input type="button" value="white" name="but" onclick="changecol(but.value)">
 </form>
 	
 
@@ -25,17 +24,17 @@
 		function changecol(b)
 		{
 			
- if(b=="Black")
+ if(b=="black")
 {
 document.getElementById("soumya").style.color='magenta'	;
-document.getElementById("ais").style.background = 'Black';
-f.but.value="White";
+document.getElementById("ais").style.background = 'black';
+f.but.value="white";
 }
-else if(b=="White")
+else if(b=="white")
  {
 
-document.getElementById("ais").style.background = 'White';
-f.but.value="Black";
+document.getElementById("ais").style.background = 'white';
+f.but.value="black";
 } 
 
  }
